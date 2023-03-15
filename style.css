@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+.background {
+    height: 100vh;
+    background-color: #dfc3ef;
+    margin: 0 auto;
+    padding: 10rem;
+}
+.calculator {
+    height: 100%;
+    width: 20%;
+    margin: 0 auto;
+    grid-template-rows: 1fr 1.5fr;
+}
+.top {
+    background-color: #001e34;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 15px;
+    border-radius: 15px 15px 0 0;
+}
+.bottom {
+    background-color: #002b4a;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    border-radius: 0 0 15px 15px;
+}
+.screen {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.first, .second, .third {
+    background-color: #002b4a;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.four, .fourone, .fouroneone, .four-one, 
+.four-two, .calculator, .bottom, .first, .second, .third{
+    display: grid;
+}
+.four {
+    grid-template-columns:3fr 1fr ;
+    height: 100%;
+}
+.fourone {
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.fouroneone {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.four-one {
+    grid-template-columns: 2fr 1fr;
+    border-radius: 0 0 0 15px;
+}
+.four-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #001e34;
+    border-radius: 0 0 15px 0;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #001e34;
+}
+h3:hover {
+    background-color: #8e82d8;
+}
+.green, .purple {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.green {
+    color: #2baa3b;
+}
+.purple {
+    color: #8e82d8;
+}
+.zero {
+    border-radius: 0 0 0 15px;
+}
